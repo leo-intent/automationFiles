@@ -1,0 +1,2 @@
+#!/bin/bash
+vsql -U dbadmin -c  "TRUNCATE TABLE intent_media_log_data_development.ad_calls" && vsql -U dbadmin -c  "TRUNCATE TABLE intent_media_log_data_development.impressions" && vsql -U dbadmin -c  "TRUNCATE TABLE intent_media_log_data_development.filtered_advertisements" && vsql -U dbadmin -c  "TRUNCATE TABLE intent_media_log_data_development.clicks"
